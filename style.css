@@ -1,0 +1,52 @@
+html {
+    background: rgb(238, 193, 180);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-color: black;
+}
+
+p,
+label {
+    font-size: 1.7rem;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 1.2px;
+}
+
+.lastResult {
+    padding: 3px;
+}
+
+input,
+button {
+    font-size: 1.5rem;
+    color: rgb(78, 76, 76);
+    -webkit-text-stroke: transparent;
+}
+
+button:hover,
+input[type=submit]:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 0, 0, 0.267);
+    transform: translateY(-0.05rem);
+    transition: transform 150ms;
+}
+
+input[type=text] {
+    width: 3rem;
+}
+
+
+/*
+.color {
+    border: 1px solid black;
+    width: 5rem;
+    padding: 2rem;
+}*/
